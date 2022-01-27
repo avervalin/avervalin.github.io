@@ -1,0 +1,31 @@
+h1 {
+  color: magenta;
+  font-size: 60px;
+  background-color: black;
+}
+
+h3.header {
+  color: black;
+  border: 3.5px dotted aliceblue;
+  background-color: teal;
+}
+
+p2 {
+  font-family: Ariel, cursive;
+}
+
+.title {
+  color: blue;
+}
+
+.nfl {
+  color: red;
+}
+
+#list {
+  color: green;
+}
+
+.pic {
+  border: 5px solid yellow;
+}
