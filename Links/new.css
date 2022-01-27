@@ -1,0 +1,51 @@
+h1 {
+  color: magenta;
+  font-size: 60px;
+  background-color: black;
+}
+
+h3.header {
+  color: black;
+  border: 3.5px dotted aliceblue;
+  background-color: teal;
+}
+
+p2 {
+  font-family: Ariel;
+}
+
+.title {
+  color: blue;
+}
+
+.nfl {
+  color: red;
+}
+
+#list {
+  color: green;
+  background-color: black;
+}
+
+.pic {
+  border: 5px solid yellow;
+}
+
+.surround {
+  background-color: purple;
+}
+
+.surround li span {
+  color: purple;
+}
+
+.box {
+  border: 5px solid orange;
+  width: 57%;
+  padding: 2%;
+  margin: 75px, 10px, 20px 100px;
+}
+
+.box img {
+    width: 100%;
+}
