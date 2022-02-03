@@ -2,18 +2,26 @@ header, nav, section {
   border: 1px solid black;
 }
 
+header {
+  padding-left: 15px;
+}
+
+nav, section {
+  padding-left: 5px;
+}
+
 h1 {
   font-size: 35px;
-  padding-left: 10px;
+  padding-left: 10px
 }
 
 p1 {
-  font-size: 15px;
+  font-size: 17px;
   padding-left: 15px;
 }
 
 header {
-  background-color: aqua;
+  background-color: #177E89;
 }
 
 nav {
@@ -24,23 +32,31 @@ padding-top: 15px;
 
 section {
   background-color: #73BFB8;
+  padding-right: 50px;
 }
 
 p2 {
 color: black;
-padding: 10px;
+padding: 13px;
+font-size: 16.5px;
 }
 
 ul {
   font-size: 20px;
-  color: white;
+  color: #F6F0ED;
 }
 
-ul.li {
-  font-color: purple;
+#list {
+  color: #024190;
 }
+
+li {
+  padding-left: 10px;
+  padding: 5px;
+}
+
 p3 {
-  font-size: 23px;
+  font-size: 25px;
   padding: 15px;
   padding-top: 5px;
   }
@@ -57,13 +73,18 @@ div {
 
 span {
   font-size: 17px;
+  line-height: 1.9;
 }
 
 a1 {
   insert: "&trade"
 }
 
+#AZ {
+  color: black;
+  text-decoration: none;
+}
 
-/*p5, p6, p7, p8, p9 {
-  padding: 12px;
+p6, p7, p8, p9 {
+  line-height: 1.6;
 }
