@@ -1,0 +1,143 @@
+/** @import url(); Must be on top **/
+@import url(http://fonts.googleapis.com/css?family=Permanent+Marker);
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: #000 url("bg.jpg") no-repeat center top;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+#wrap {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.one, .two, .three {
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	margin: 10px;
+}
+
+.two {
+	background-color: red;
+	position: relative;
+	top: 40px;
+	left: 40px;
+}
+
+.three {
+	z-index: 999;
+}
+
+header {
+	clear: both;
+	text-align: center;
+}
+
+footer {
+	background-color: transparent;
+	padding: 10px;
+	color: white;
+	text-align: center;
+	clear: both;
+}
+
+footer a {
+	color: #8CF0EF;
+}
+
+nav {
+	padding-bottom: 18px;
+	word-spacing: 15px;
+	letter-spacing: 7.5px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+nav li {
+	display: inline;
+	margin: 0 30px;
+}
+
+nav a {
+	color: #2A6041;
+	font-size:30px;
+	text-decoration:none;
+	font-weight: bold;
+	font-family: 'Permanent Marker', cursive;
+}
+
+nav a:hover {
+	color: white;
+}
+
+section {
+	background-color:rgba(0,0,0,0.4);
+	position: relative;
+	overflow: auto;
+}
+
+h1, h2 {
+	font-family: Georgia, serif;
+	padding-left: 2%;
+}
+
+h1 {
+	margin: 0;
+	font-size: 72px;
+	color: white;
+	padding-bottom: 7.5px;
+}
+
+h2 {
+	margin: 0;
+	font-size: 25px;
+	color: #8CF0EF;
+	font-weight: 540;
+	padding-bottom: 1%;
+}
+
+section {
+	overflow: auto;
+}
+
+.welcome {
+	padding: 10px 15px;
+	margin: 20px 0;
+	overflow: auto;
+}
+
+#title {
+	 width: 40%;
+	 padding-bottom: 15px;
+ }
+
+figure {
+	margin: 1%;
+	float: left;
+	width: 29%;
+	padding: 1%;
+	border: 1px solid white;
+	background-color: black;
+}
+
+figure img {
+	width: 100%;
+}
+
+figcaption {
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	padding: 5px 0px;
+	margin: 0px;
+	font-size: 90%;
+}
