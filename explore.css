@@ -14,24 +14,6 @@ html, body {
 	margin: 0 auto;
 }
 
-.one, .two, .three {
-	width: 200px;
-	height: 200px;
-	background-color: blue;
-	margin: 10px;
-}
-
-.two {
-	background-color: red;
-	position: relative;
-	top: 40px;
-	left: 40px;
-}
-
-.three {
-	z-index: 999;
-}
-
 header {
 	clear: both;
 	text-align: center;
@@ -64,6 +46,7 @@ nav ul {
 nav li {
 	display: inline;
 	margin: 0 30px;
+	font-family: 'Permanent Marker', cursive;
 }
 
 nav a {
