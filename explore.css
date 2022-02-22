@@ -1,5 +1,6 @@
-@import url(http://fonts.googleapis.com/css?family=Permanent+Marker);
 /** @import url(); Must be on top **/
+@import url(http://fonts.googleapis.com/css?family=Permanent+Marker);
+
 
 html, body {
 	height: 100%;
