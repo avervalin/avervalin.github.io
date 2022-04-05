@@ -1,0 +1,182 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #ddd;
+  font-family: Arial, sans-serif;
+}
+
+#wrap {
+  margin: 0 auto;
+  width: 75%;
+}
+
+header, nav, section, footer {
+  background: white;
+}
+
+header {
+  background-color: teal;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+.header {
+  background-color: teal;
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  font-family: fantasy;
+  color: #84A9C0;
+  letter-spacing: 6px;
+  line-height: 90px;
+  padding-top: 30px;
+}
+
+header img {
+    width: 100%;
+}
+
+h2 {
+  font-size: 27px;
+  padding-bottom: 5px;
+}
+
+.space {
+  padding-top: 32px;
+}
+
+.space2 {
+  padding-top: 1px;
+}
+
+nav {
+  background-color: teal;
+  padding: 20px;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 120%;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  background-color: maroon;
+  padding: 15px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  background-color: green;
+  overflow: auto;
+}
+
+.section {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+aside {
+  background-color: green;
+  width: 25%;
+  float: left;
+  padding: 2% 0 0 0;
+}
+
+aside a {
+  color: white;
+  text-decoration: none;
+  width: 100%;
+  display: inline-block;
+  padding: 10px 10px 10px 30px;
+  }
+
+aside a:hover {
+  background-color: darkgreen;
+}
+
+aside li {
+  list-style-type: none;
+  line-height: 40px;
+}
+
+aside ul {
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  background-color: #e6a8d7;
+  width: 67%;
+  float: right;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 2%;
+  padding-bottom: 7px;
+}
+
+footer {
+  background-color: plum;
+  text-align: center;
+  padding: 5px;
+  font-size: 80%;
+}
+
+.yesbird {
+    width: 33%;
+    float: right;
+    margin: 0 0 10px 20px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.tree {
+  width: 30%;
+  float: right;
+  margin: 0 0 10px 20px;
+  padding-bottom: 16px;
+}
+
+#summer {
+  background-color: #FFE800;
+}
+
+#winter {
+  background-color: #DBF3FA;
+}
+
+#autumn {
+  background-color: orange;
+}
+
+#spring {
+  background-color: #82D682;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: lightblue;
+  }
+  #wrap {
+    width: 100%;
+  }
+  nav li {
+    display: block;
+  }
+  nav a {
+    display: block;
+  }
+}
